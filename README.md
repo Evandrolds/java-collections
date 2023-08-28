@@ -3,9 +3,9 @@
 ### Collections Framework é um conjunto bem definido de interfaces e classes para representar e tratar grupos de dados como uma única unidade, que pode ser chamada de coleção, ou collection em inglês.
 
 #### A plataforma Java inclui uma estrutura de coleções.
-Uma coleção é um objeto que representa um grupo de objetos, ou seja uma coleção seja ela do que for, no java é um objeto, e tudo que estiver incluso nesta coleção para o java são objetos, por isso que uma coleção é um objeto que representa um grupo de objetos.
+Uma coleção é um objeto que representa um grupo de objetos, ou seja, uma coleção seja ela do que for, no java é um objeto, e tudo que estiver incluso nesta coleção para o java são objetos, por isso que uma coleção é um objeto que representa um grupo de objetos.
 Uma estrutura de coleções é uma arquitetura unificada para representar e manipular coleções, permitindo que as coleções sejam manipuladas independentemente dos detalhes de implementação.
-### As principais vantagens de uma estrutura de coleções são:
+### As principais vantagens das estruturas de coleções são:
 
 * Reduz o esforço de programação fornecendo estruturas de dados e algoritmos para que você não precise escrevê-los sozinho.
 * Aumenta o desempenho fornecendo implementações de alto desempenho de estruturas de dados e algoritmos.
@@ -20,17 +20,18 @@ Uma estrutura de coleções é uma arquitetura unificada para representar e mani
 * Interface são tipos abstratos que representam as coleções. Permitem que coleções sejam manipuladas tendo como base o conceito “Programar para interfaces e não para implementações”, desde que o acesso aos objetos se restrinja apenas ao uso de métodos definidos nas interfaces;
 ## Implementações:
 * São as implementações concretas das interfaces;
-## Vou dar um exemplo de impelemntação em Java bem simples:
+## Vou dar um exemplo bem simples de implementação em Java :
 
-A palavra reservada ( Implements ) faz a chamada de qualquer interface que foi criada ou se ja existia na sua aplicação,
+A palavra reservada ( Implements ) faz a chamada de qualquer interface que foi criada ou que ja exista na sua aplicação,
 nesse exemplo eu criei uma intercafe que tem um método que carrega a assinatura (nome) de IMC,
 então eu precisei ultilizar o metodo que essa interface tem em seu corpo,
 e para eu não ter que criar outro, eu implemento esse interface e com isso eu sou obrigado e implementar o(os) metodo(s) dela.
-A imagem a baixo mostra a Interface e seu método. Lembrando este é um exemplo mais simples que consegui, tem um mais concreto e avançado mais em baixo
+A imagem a baixo mostra a Interface e seu método. Lembrando este é um exemplo mais simples que consegui.
 <p align="center">
 <img  width="400" height="125" src="https://github.com/Evandrolds/java-collections/assets/57682675/776f3205-af76-4dbc-a331-79b25de40c54">
 </p>
-Aqui na classe Pessoa eu a implemento a interface PessoaImpl, observe logo no topo da imagem a palavra reservado do java ( implements + o nome da interface que é PessoaImpl.
+Aqui na classe Pessoa eu implemento a interface PessoaImpl, observe logo no topo da imagem a palavra reservado do java ( implements + o nome da interface que é PessoaImpl.
+Com isso eu acabo de realizar uma implemetação concreta da interface PessoaImpl.
 
  <p align="center">
  <img  width="480" height="170"  src="https://github.com/Evandrolds/java-collections/assets/57682675/fde0a6bd-aee5-4c1d-9dd2-7fd849257246">
